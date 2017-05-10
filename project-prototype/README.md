@@ -38,11 +38,6 @@ Below are three screenshots of the interface of the shiny app.
 
 ![IMAGE](shinyapp1.png)
 
-![IMAGE](shinyapp2.png)
-
-![IMAGE](shinyapp3.png)
-
-
 ![IMAGE](shinyapp4.png)
 
 ![IMAGE](shinyapp5.png)
