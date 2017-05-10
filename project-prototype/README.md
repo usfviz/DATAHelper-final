@@ -44,6 +44,8 @@ Below are three screenshots of the interface of the shiny app.
 
 ![IMAGE](shinyapp4.png)
 
+![IMAGE](shinyapp5.png)
+
 ## Data Set
 
 This Airbnb data provides us with more than 20 columns that can be explore using shiny and leaflet. The aboudant information in
