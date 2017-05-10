@@ -1,5 +1,5 @@
 rm(list = ls())
-setwd("~/Google-Drive/0.USF/5.2Visualization/project/project-prototype")
+# setwd("~/Google-Drive/0.USF/5.2Visualization/project/project-prototype")
 if(!require(shinydashboard))install.packages("shinydashboard")
 # <<<<<<< HEAD
 library(ggvis)
