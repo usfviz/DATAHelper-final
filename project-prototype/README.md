@@ -25,7 +25,7 @@ To run this code, please enter the following commands in R:
 
 ```
 library(shiny)
-shiny::runGitHub('DATAHelper-final', 'usfviz', subdir='project-prototype')
+shiny::runGitHub('DATAHelper-final', 'usfviz', subdir='project-prototype/app.R')
 ```
 
 This will start the `shiny` app. See below for details on how to interact with the visualization.
