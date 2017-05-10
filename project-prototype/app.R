@@ -44,24 +44,8 @@ ui <- dashboardPage(
                                  label = "Select a neighborhood:",
                                  choice = region.sf.all,
                                  selected = c("All")
-                                 )                    
-                     ,selectInput(inputId = "price_range", "Select Price Range", c("0-$200","$200-$500",">$500"),"0-$200")
-                     ,conditionalPanel(condition = "input.price_range == '0-$200'",
-                                       sliderInput(inputId = "price_1", 
-                                                   label = "Choose price range",
-                                                     min=0, max=200, value=c(30,180),step=10)
-                                      )
-                     ,conditionalPanel(condition = "input.price_range == '$200-$500'",
-                                      sliderInput(inputId = "price_2", 
-                                                  label = "Choose price range",
-                                                  min=200, max=500, value=c(230,380),step=10)
-                                      )
-                     ,conditionalPanel(condition = "input.price_range == '>$500'",
-                                      sliderInput(inputId = "price_3", 
-                                                  label = "Choose price range",
-                                                  min=500, max=7500, value=c(500,2000),step=50)
-                                      )
-                     ,radioButtons("home_type",
+                                 )
+                                          ,radioButtons("home_type",
                                   "Select home type:",
                                   choices = c("All", "Select home type"),
                                   selected = c("All"))
@@ -84,6 +68,23 @@ ui <- dashboardPage(
                                                    multiple = T
                                                    )
                                        )
+                     ,selectInput(inputId = "price_range", "Select Price Range", c("0-$200","$200-$500",">$500"),"0-$200")
+                     ,conditionalPanel(condition = "input.price_range == '0-$200'",
+                                       sliderInput(inputId = "price_1", 
+                                                   label = "Choose price range",
+                                                     min=0, max=200, value=c(30,180),step=10)
+                                      )
+                     ,conditionalPanel(condition = "input.price_range == '$200-$500'",
+                                      sliderInput(inputId = "price_2", 
+                                                  label = "Choose price range",
+                                                  min=200, max=500, value=c(230,380),step=10)
+                                      )
+                     ,conditionalPanel(condition = "input.price_range == '>$500'",
+                                      sliderInput(inputId = "price_3", 
+                                                  label = "Choose price range",
+                                                  min=500, max=7500, value=c(500,2000),step=50)
+                                      )
+
                      )
   ),
   
