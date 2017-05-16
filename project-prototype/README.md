@@ -36,7 +36,7 @@ Discussion
 
 Below are three screenshots of the interface of the shiny app.
 
-![IMAGE](shinyapp1.png)
+![IMAGE](shinyapp_hosts.png)
 
 ![IMAGE](shinyapp3.png)
 
